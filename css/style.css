@@ -1,0 +1,45 @@
+/* /css/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4e005;
+}
+
+header {
+    background-color: #02d2fc;
+    color: #04ff2a;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #0591f5;
+    text-decoration: none;
+}
+
+nav ul li.active a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #f90707;
+    color: #2c03fb;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
